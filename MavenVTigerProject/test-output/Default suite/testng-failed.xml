@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.testscripts.CampaignCreationMTest">
+      <class name="com.vtiger.testscripts.ProductsCreationMTest">
         <methods>
-          <include name="createdCampaign"/>
           <include name="ConfigBC"/>
           <include name="ConficAM"/>
           <include name="ConficBM"/>
+          <include name="createdProducts"/>
           <include name="ConficBS"/>
           <include name="configAS"/>
           <include name="configAC"/>
         </methods>
-      </class> <!-- com.vtiger.testscripts.CampaignCreationMTest -->
+      </class> <!-- com.vtiger.testscripts.ProductsCreationMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
