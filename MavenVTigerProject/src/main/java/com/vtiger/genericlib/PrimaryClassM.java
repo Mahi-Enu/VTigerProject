@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -38,15 +38,15 @@ public class PrimaryClassM {
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 		driver = new ChromeDriver();
 	}
-	else if(browser.equals("firefox")) 
-	{
-		System.setProperty("webdriver.gecko.driver", "./src/main/resources/geckodriver.exe");
-		driver = new FirefoxDriver();
-	}
+//	else if(browser.equals("firefox")) 
+//	{
+//		System.setProperty("webdriver.gecko.driver", "./src/main/resources/geckodriver.exe");
+//		driver = new FirefoxDriver();
+//	}
 	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	driver.manage().window().maximize();
 	driver.get(data.getDataFromProperty("url"));
-	System.out.println("Browser Closed..");
+	//System.out.println("Browser Closed..");
 	}
 	
 	@BeforeMethod
