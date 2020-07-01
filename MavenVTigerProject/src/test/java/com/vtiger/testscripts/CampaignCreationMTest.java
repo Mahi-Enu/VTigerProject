@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.vtiger.genericlib.PrimaryClassM;
@@ -31,7 +32,8 @@ public class CampaignCreationMTest extends PrimaryClassM{
 		ccp.getSaveBtn().click();
 		String actCampaignMsg = cip.getCampaignSuccessMsg().getText();
 		
-		Assert.assertTrue(actCampaignMsg.contains(data.getDataFromExcel("CampaiginData",2, 4)));
+		Assert.assertTrue(actCampaignMsg.contains(data.getDataFromExcel("CampaiginData",2, 2)));
+		Reporter.log("Campaign created successfully",true);
 	}
 
 }

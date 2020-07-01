@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.vtiger.genericlib.PrimaryClassM;
@@ -27,6 +28,7 @@ public class ProductsCreationMTest extends PrimaryClassM {
 		String actProductsMsg = pip.getProductsSuccessMsg().getText();
 		
 		Assert.assertTrue(actProductsMsg.contains(data.getDataFromExcel("ProductsData",2, 2)));
+		Reporter.log("Product created successfully",true);
 	}
 
 }

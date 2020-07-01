@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -33,6 +34,7 @@ public class LeadCreationMTest extends PrimaryClassM {
 		String actLeadMsg = lip.getLeadSuccessMsg().getText();
 		
 		Assert.assertTrue(actLeadMsg.contains(data.getDataFromExcel("CreateLead",2, 3)));
+		Reporter.log("Lead created successfully",true);
 	}
 
 }
