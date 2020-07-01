@@ -5,39 +5,39 @@
       <![CDATA[Product created successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36440" started-at="2020-07-01T10:17:51Z" finished-at="2020-07-01T10:18:27Z">
+  <suite name="Default suite" duration-ms="35034" started-at="2020-07-01T10:25:14Z" finished-at="2020-07-01T10:25:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36440" started-at="2020-07-01T10:17:51Z" finished-at="2020-07-01T10:18:27Z">
+    <test name="Default test" duration-ms="35034" started-at="2020-07-01T10:25:14Z" finished-at="2020-07-01T10:25:49Z">
       <class name="com.vtiger.testscripts.ProductsCreationMTest">
-        <test-method status="PASS" signature="ConficBS()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConficBS" is-config="true" duration-ms="32" started-at="2020-07-01T10:17:51Z" finished-at="2020-07-01T10:17:51Z">
+        <test-method status="PASS" signature="ConficBS()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConficBS" is-config="true" duration-ms="39" started-at="2020-07-01T10:25:14Z" finished-at="2020-07-01T10:25:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConficBS -->
-        <test-method status="PASS" signature="ConfigBC()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConfigBC" is-config="true" duration-ms="8680" started-at="2020-07-01T10:17:51Z" finished-at="2020-07-01T10:17:59Z">
+        <test-method status="PASS" signature="ConfigBC()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConfigBC" is-config="true" duration-ms="8498" started-at="2020-07-01T10:25:14Z" finished-at="2020-07-01T10:25:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigBC -->
-        <test-method status="PASS" signature="ConficBM()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConficBM" is-config="true" duration-ms="6421" started-at="2020-07-01T10:17:59Z" finished-at="2020-07-01T10:18:06Z">
+        <test-method status="PASS" signature="ConficBM()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConficBM" is-config="true" duration-ms="6618" started-at="2020-07-01T10:25:23Z" finished-at="2020-07-01T10:25:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConficBM -->
-        <test-method status="PASS" signature="createdProducts()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="createdProducts" duration-ms="16462" started-at="2020-07-01T10:18:06Z" finished-at="2020-07-01T10:18:22Z">
+        <test-method status="PASS" signature="createdProducts()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="createdProducts" duration-ms="15798" started-at="2020-07-01T10:25:29Z" finished-at="2020-07-01T10:25:45Z">
           <reporter-output>
             <line>
               <![CDATA[Product created successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- createdProducts -->
-        <test-method status="PASS" signature="ConficAM()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConficAM" is-config="true" duration-ms="3441" started-at="2020-07-01T10:18:22Z" finished-at="2020-07-01T10:18:26Z">
+        <test-method status="PASS" signature="ConficAM()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="ConficAM" is-config="true" duration-ms="3217" started-at="2020-07-01T10:25:45Z" finished-at="2020-07-01T10:25:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConficAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="configAC" is-config="true" duration-ms="1385" started-at="2020-07-01T10:18:26Z" finished-at="2020-07-01T10:18:27Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="configAC" is-config="true" duration-ms="860" started-at="2020-07-01T10:25:48Z" finished-at="2020-07-01T10:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="configAS" is-config="true" duration-ms="0" started-at="2020-07-01T10:18:27Z" finished-at="2020-07-01T10:18:27Z">
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.testscripts.ProductsCreationMTest@146ba0ac]" name="configAS" is-config="true" duration-ms="2" started-at="2020-07-01T10:25:49Z" finished-at="2020-07-01T10:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
